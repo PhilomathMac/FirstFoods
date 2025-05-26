@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FoodRow: View {
     var food: Food
+    var foodStatus: FoodStatus?
     
     var body: some View {
         HStack {
@@ -17,8 +18,8 @@ struct FoodRow: View {
                 Text(food.name)
                     .font(.title)
                 HStack {
-                    Image(systemName: "gauge.with.dots.needle.bottom.0percent").font(.callout)
-                    Text("😃")
+                    TimesTriedSymbol(timesTried: foodStatus?.timesTried ?? 0)
+                    Text(foodStatus?.babyPreference ?? "❓")
                     if food.isAllergen {
                         Image(systemName: "exclamationmark.octagon.fill").font(.callout).foregroundStyle(.red)
                     }
