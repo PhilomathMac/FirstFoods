@@ -1,0 +1,503 @@
+
+[
+    {
+        "id": "f1",
+        "name": "Oats",
+        "isAllergen": false
+    },
+    {
+        "id": "f2",
+        "name": "Avocado",
+        "isAllergen": false
+    },
+    {
+        "id": "f3",
+        "name": "Sweet Potato",
+        "isAllergen": false
+    },
+    {
+        "id": "f4",
+        "name": "Apple",
+        "isAllergen": false
+    },
+    {
+        "id": "f5",
+        "name": "Cannellini Bean",
+        "isAllergen": false
+    },
+    {
+        "id": "f6",
+        "name": "Broccoli",
+        "isAllergen": false
+    },
+    {
+        "id": "f7",
+        "name": "Quinoa",
+        "isAllergen": false
+    },
+    {
+        "id": "f8",
+        "name": "Chicken",
+        "isAllergen": false
+    },
+    {
+        "id": "f9",
+        "name": "Banana",
+        "isAllergen": false
+    },
+    {
+        "id": "f10",
+        "name": "Zucchini",
+        "isAllergen": false
+    },
+    {
+        "id": "f11",
+        "name": "Olive Oil",
+        "isAllergen": false
+    },
+    {
+        "id": "f12",
+        "name": "Beef",
+        "isAllergen": false
+    },
+    {
+        "id": "f13",
+        "name": "Mango",
+        "isAllergen": false
+    },
+    {
+        "id": "f14",
+        "name": "Chicken Liver",
+        "isAllergen": false
+    },
+    {
+        "id": "f15",
+        "name": "Corn",
+        "isAllergen": false
+    },
+    {
+        "id": "f16",
+        "name": "Strawberry",
+        "isAllergen": false
+    },
+    {
+        "id": "f17",
+        "name": "Cauliflower",
+        "isAllergen": false
+    },
+    {
+        "id": "f18",
+        "name": "Pumpkin Seed",
+        "isAllergen": false
+    },
+    {
+        "id": "f19",
+        "name": "Black Beans",
+        "isAllergen": false
+    },
+    {
+        "id": "f20",
+        "name": "Hemp Seed",
+        "isAllergen": false
+    },
+    {
+        "id": "f21",
+        "name": "Egg",
+        "isAllergen": true
+    },
+    {
+        "id": "f22",
+        "name": "Raspberry",
+        "isAllergen": false
+    },
+    {
+        "id": "f23",
+        "name": "Pork",
+        "isAllergen": false
+    },
+    {
+        "id": "f24",
+        "name": "Tomato",
+        "isAllergen": false
+    },
+    {
+        "id": "f25",
+        "name": "Yogurt",
+        "isAllergen": true
+    },
+    {
+        "id": "f26",
+        "name": "Ricotta Cheese",
+        "isAllergen": true
+    },
+    {
+        "id": "f27",
+        "name": "Mascarpone",
+        "isAllergen": true
+    },
+    {
+        "id": "f28",
+        "name": "Prune",
+        "isAllergen": false
+    },
+    {
+        "id": "f29",
+        "name": "Spinach",
+        "isAllergen": false
+    },
+    {
+        "id": "f30",
+        "name": "Garlic",
+        "isAllergen": false
+    },
+    {
+        "id": "f31",
+        "name": "Onion",
+        "isAllergen": false
+    },
+    {
+        "id": "f32",
+        "name": "Lemon",
+        "isAllergen": false
+    },
+    {
+        "id": "f33",
+        "name": "Bell Pepper",
+        "isAllergen": false
+    },
+    {
+        "id": "f34",
+        "name": "Cucumber",
+        "isAllergen": false
+    },
+    {
+        "id": "f35",
+        "name": "Blueberry",
+        "isAllergen": false
+    },
+    {
+        "id": "f36",
+        "name": "Peanut Butter",
+        "isAllergen": true
+    },
+    {
+        "id": "f37",
+        "name": "Carrot",
+        "isAllergen": false
+    },
+    {
+        "id": "f38",
+        "name": "Wheat Farina",
+        "isAllergen": true
+    },
+    {
+        "id": "f39",
+        "name": "Bread",
+        "isAllergen": true
+    },
+    {
+        "id": "f40",
+        "name": "Pasta",
+        "isAllergen": true
+    },
+    {
+        "id": "f41",
+        "name": "Yellow Squash",
+        "isAllergen": false
+    },
+    {
+        "id": "f42",
+        "name": "Ezekial Bread",
+        "isAllergen": false
+    },
+    {
+        "id": "f43",
+        "name": "Goat Cheese",
+        "isAllergen": true
+    },
+    {
+        "id": "f44",
+        "name": "Lamb",
+        "isAllergen": false
+    },
+    {
+        "id": "f45",
+        "name": "Peach",
+        "isAllergen": false
+    },
+    {
+        "id": "f46",
+        "name": "Salmon",
+        "isAllergen": true
+    },
+    {
+        "id": "f47",
+        "name": "Cod",
+        "isAllergen": true
+    },
+    {
+        "id": "f48",
+        "name": "Talapia",
+        "isAllergen": true
+    },
+    {
+        "id": "f49",
+        "name": "Kale",
+        "isAllergen": false
+    },
+    {
+        "id": "f50",
+        "name": "Sardine",
+        "isAllergen": true
+    },
+    {
+        "id": "f51",
+        "name": "Lime",
+        "isAllergen": false
+    },
+    {
+        "id": "f52",
+        "name": "Sesame",
+        "isAllergen": true
+    },
+    {
+        "id": "f53",
+        "name": "Lentil",
+        "isAllergen": false
+    },
+    {
+        "id": "f54",
+        "name": "Buckwheat Noodles",
+        "isAllergen": false
+    },
+    {
+        "id": "f55",
+        "name": "ginger",
+        "isAllergen": false
+    },
+    {
+        "id": "f56",
+        "name": "Acorn Squash",
+        "isAllergen": false
+    },
+    {
+        "id": "f57",
+        "name": "Chickpea",
+        "isAllergen": false
+    },
+    {
+        "id": "f58",
+        "name": "Blackberry",
+        "isAllergen": false
+    },
+    {
+        "id": "f59",
+        "name": "Persimmon",
+        "isAllergen": false
+    },
+    {
+        "id": "f60",
+        "name": "Orange",
+        "isAllergen": false
+    },
+    {
+        "id": "f61",
+        "name": "Coconut",
+        "isAllergen": false
+    },
+    {
+        "id": "f62",
+        "name": "Chia Seeds",
+        "isAllergen": false
+    },
+    {
+        "id": "f63",
+        "name": "Collard Greens",
+        "isAllergen": false
+    },
+    {
+        "id": "f64",
+        "name": "Butternut Squash",
+        "isAllergen": false
+    },
+    {
+        "id": "f65",
+        "name": "Eggplant",
+        "isAllergen": false
+    },
+    {
+        "id": "f66",
+        "name": "Watermelon",
+        "isAllergen": false
+    },
+    {
+        "id": "f67",
+        "name": "Pineapple",
+        "isAllergen": false
+    },
+    {
+        "id": "f68",
+        "name": "Turnip",
+        "isAllergen": false
+    },
+    {
+        "id": "f69",
+        "name": "Tofu",
+        "isAllergen": true
+    },
+    {
+        "id": "f70",
+        "name": "Edamame",
+        "isAllergen": false
+    },
+    {
+        "id": "f71",
+        "name": "Plantain",
+        "isAllergen": false
+    },
+    {
+        "id": "f72",
+        "name": "Cantaloupe",
+        "isAllergen": false
+    },
+    {
+        "id": "f73",
+        "name": "Walnut",
+        "isAllergen": true
+    },
+    {
+        "id": "f74",
+        "name": "Beet",
+        "isAllergen": false
+    },
+    {
+        "id": "f75",
+        "name": "Mozzarella",
+        "isAllergen": true
+    },
+    {
+        "id": "f76",
+        "name": "Basil",
+        "isAllergen": false
+    },
+    {
+        "id": "f77",
+        "name": "Grapefruit",
+        "isAllergen": false
+    },
+    {
+        "id": "f78",
+        "name": "Kidney Beans",
+        "isAllergen": false
+    },
+    {
+        "id": "f79",
+        "name": "Turkey",
+        "isAllergen": false
+    },
+    {
+        "id": "f80",
+        "name": "Kiwi",
+        "isAllergen": false
+    },
+    {
+        "id": "f81",
+        "name": "Almond",
+        "isAllergen": true
+    },
+    {
+        "id": "f82",
+        "name": "Pear",
+        "isAllergen": false
+    },
+    {
+        "id": "f83",
+        "name": "Mushroom",
+        "isAllergen": false
+    },
+    {
+        "id": "f84",
+        "name": "Green Beans",
+        "isAllergen": false
+    },
+    {
+        "id": "f85",
+        "name": "Trout",
+        "isAllergen": true
+    },
+    {
+        "id": "f86",
+        "name": "Pinto Beans",
+        "isAllergen": false
+    },
+    {
+        "id": "f87",
+        "name": "Cashew",
+        "isAllergen": true
+    },
+    {
+        "id": "f88",
+        "name": "Pistachio",
+        "isAllergen": true
+    },
+    {
+        "id": "f89",
+        "name": "Sunflower Seed",
+        "isAllergen": false
+    },
+    {
+        "id": "f90",
+        "name": "Hazelnut",
+        "isAllergen": true
+    },
+    {
+        "id": "f91",
+        "name": "Couscous",
+        "isAllergen": false
+    },
+    {
+        "id": "f92",
+        "name": "Rice",
+        "isAllergen": false
+    },
+    {
+        "id": "f93",
+        "name": "Spaghetti Squash",
+        "isAllergen": false
+    },
+    {
+        "id": "f94",
+        "name": "Garden Peas",
+        "isAllergen": false
+    },
+    {
+        "id": "f95",
+        "name": "Pecan",
+        "isAllergen": true
+    },
+    {
+        "id": "f96",
+        "name": "Parsnip",
+        "isAllergen": false
+    },
+    {
+        "id": "f97",
+        "name": "Nectarine",
+        "isAllergen": false
+    },
+    {
+        "id": "f98",
+        "name": "Rutabega",
+        "isAllergen": false
+    },
+    {
+        "id": "f99",
+        "name": "Rosemary",
+        "isAllergen": false
+    },
+    {
+        "id": "f100",
+        "name": "Feta",
+        "isAllergen": true
+    }
+]
