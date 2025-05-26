@@ -11,6 +11,22 @@ struct FoodList: View {
     var body: some View {
         List(foods) { food in
             FoodRow(food: food)
+                .swipeActions(edge:.trailing) {
+                    Button(action: {
+                        
+                    }, label: {
+                        Image(systemName: "plus")
+                    })
+                    .tint(.green)
+                }
+                .swipeActions(edge:.leading) {
+                    Button(action: {
+                        
+                    }, label: {
+                        Image(systemName: "minus")
+                    })
+                    .tint(.red)
+                }
         }
     }
 }
