@@ -18,8 +18,10 @@ struct FoodRow: View {
                     .font(.title)
                 HStack {
                     Image(systemName: "gauge.with.dots.needle.bottom.0percent").font(.callout)
-                    Image(systemName: "exclamationmark.octagon.fill").font(.callout)
                     Text("😃")
+                    if food.isAllergen {
+                        Image(systemName: "exclamationmark.octagon.fill").font(.callout).foregroundStyle(.red)
+                    }
                 }
             }
             Spacer()
@@ -30,4 +32,8 @@ struct FoodRow: View {
 
 #Preview {
     FoodRow(food: foods[36])
+}
+
+#Preview {
+    FoodRow(food: foods[20])
 }
