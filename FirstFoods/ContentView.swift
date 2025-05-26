@@ -14,14 +14,17 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Text("Carrot")
                     .font(.title)
+                HStack {
+                    Image(systemName: "gauge.with.dots.needle.bottom.0percent").font(.callout)
+                    Image(systemName: "exclamationmark.octagon.fill").font(.callout)
+                    Text("😃")
+                }
             }
             Spacer()
-            Image(systemName: "gauge.with.dots.needle.bottom.0percent").font(.title)
         }
         .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
