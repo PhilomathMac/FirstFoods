@@ -12,8 +12,7 @@ struct Food: Identifiable, Codable {
     var name: String
     var isAllergen: Bool
     
-    private var imageName: String
-        var image: Image {
-            Image(imageName)
+    var imageName: String {
+        name.lowercased().replacingOccurrences(of: " ", with: "_")
     }
 }

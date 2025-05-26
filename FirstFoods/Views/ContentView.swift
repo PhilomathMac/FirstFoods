@@ -9,20 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            FoodImage()
-            VStack(alignment: .leading) {
-                Text("Carrot")
-                    .font(.title)
-                HStack {
-                    Image(systemName: "gauge.with.dots.needle.bottom.0percent").font(.callout)
-                    Image(systemName: "exclamationmark.octagon.fill").font(.callout)
-                    Text("😃")
-                }
-            }
-            Spacer()
-        }
-        .padding()
+        FoodList()
     }
 }
 #Preview {

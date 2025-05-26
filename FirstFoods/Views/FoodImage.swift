@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct FoodImage: View {
+    var imageName: String
+    
     var body: some View {
-        Image("carrot")
+        Image(imageName)
             .resizable()
             .aspectRatio(contentMode: .fit)
             .clipShape(.circle)
@@ -22,5 +24,5 @@ struct FoodImage: View {
 }
 
 #Preview {
-    FoodImage()
+    FoodImage(imageName: "carrot")
 }

@@ -13,7 +13,7 @@ func load<T: Decodable>(_ fileName: String) -> T {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: fileName, withExtension: nil) else {
-            fatalError("Couldn't find \(fileName) in main bundle")
+        fatalError("Couldn't find \(fileName) in main bundle")
     }
     
     do {
