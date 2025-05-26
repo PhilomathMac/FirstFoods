@@ -14,6 +14,10 @@ struct FoodImage: View {
             .aspectRatio(contentMode: .fit)
             .clipShape(.circle)
             .frame(width: 100)
+            .overlay {
+                Circle().stroke(.white, lineWidth: 4)
+            }
+            .shadow(radius: 7)
     }
 }
 
