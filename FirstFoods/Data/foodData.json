@@ -87,7 +87,7 @@
     },
     {
         "id": "f18",
-        "name": "Pumpkin Seed",
+        "name": "Pepita",
         "isAllergen": false
     },
     {
@@ -272,7 +272,7 @@
     },
     {
         "id": "f55",
-        "name": "ginger",
+        "name": "Ginger",
         "isAllergen": false
     },
     {
@@ -497,7 +497,7 @@
     },
     {
         "id": "f100",
-        "name": "Feta",
-        "isAllergen": true
+        "name": "Pumpkin",
+        "isAllergen": false
     }
 ]

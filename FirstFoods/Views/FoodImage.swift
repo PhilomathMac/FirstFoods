@@ -13,9 +13,9 @@ struct FoodImage: View {
     var body: some View {
         Image(imageName)
             .resizable()
-            .aspectRatio(contentMode: .fit)
+            .scaledToFill()
+            .frame(width: 75, height: 75)
             .clipShape(.circle)
-            .frame(width: 100)
             .overlay {
                 Circle().stroke(.white, lineWidth: 4)
             }
@@ -24,5 +24,9 @@ struct FoodImage: View {
 }
 
 #Preview {
-    FoodImage(imageName: "carrot")
+    VStack {
+        FoodImage(imageName: "carrot")
+        FoodImage(imageName: "apple")
+        FoodImage(imageName: "oats")
+    }
 }

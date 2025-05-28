@@ -9,24 +9,26 @@ import SwiftUI
 
 struct FoodList: View {
     var body: some View {
-        List(foods) { food in
-            FoodRow(food: food)
-                .swipeActions(edge:.trailing) {
-                    Button(action: {
-                        
-                    }, label: {
-                        Image(systemName: "plus")
-                    })
-                    .tint(.green)
-                }
-                .swipeActions(edge:.leading) {
-                    Button(action: {
-                        
-                    }, label: {
-                        Image(systemName: "minus")
-                    })
-                    .tint(.red)
-                }
+        List{
+            ForEach(foods) { food in
+                FoodRow(food: food)
+                    .swipeActions(edge:.trailing) {
+                        Button(action: {
+                            
+                        }, label: {
+                            Image(systemName: "plus")
+                        })
+                        .tint(.green)
+                    }
+                    .swipeActions(edge:.leading) {
+                        Button(action: {
+                            
+                        }, label: {
+                            Image(systemName: "minus")
+                        })
+                        .tint(.red)
+                    }
+            }
         }
     }
 }

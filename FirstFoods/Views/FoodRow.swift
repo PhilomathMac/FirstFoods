@@ -14,6 +14,7 @@ struct FoodRow: View {
     var body: some View {
         HStack {
             FoodImage(imageName: food.imageName)
+                .padding([.trailing])
             VStack(alignment: .leading) {
                 Text(food.name)
                     .font(.title)
