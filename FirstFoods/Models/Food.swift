@@ -11,8 +11,19 @@ struct Food: Identifiable, Codable {
     var id: String
     var name: String
     var isAllergen: Bool
+    var category: FoodCategory
     
     var imageName: String {
         name.lowercased().replacingOccurrences(of: " ", with: "_")
     }
+}
+
+enum FoodCategory: String, Codable {
+    case fruit
+    case vegetable
+    case nut
+    case meat
+    case dairy
+    case grain
+    case other
 }

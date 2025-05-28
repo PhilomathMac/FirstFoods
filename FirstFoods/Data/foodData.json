@@ -3,501 +3,601 @@
     {
         "id": "f1",
         "name": "Oats",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f2",
         "name": "Avocado",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f3",
         "name": "Sweet Potato",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f4",
         "name": "Apple",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f5",
         "name": "Cannellini Bean",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f6",
         "name": "Broccoli",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f7",
         "name": "Quinoa",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f8",
         "name": "Chicken",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "meat"
     },
     {
         "id": "f9",
         "name": "Banana",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f10",
         "name": "Zucchini",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f11",
         "name": "Olive Oil",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f12",
         "name": "Beef",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "meat"
     },
     {
         "id": "f13",
         "name": "Mango",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f14",
         "name": "Chicken Liver",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "meat"
     },
     {
         "id": "f15",
         "name": "Corn",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f16",
         "name": "Strawberry",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f17",
         "name": "Cauliflower",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f18",
         "name": "Pepita",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "nut"
     },
     {
         "id": "f19",
         "name": "Black Beans",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f20",
         "name": "Hemp Seed",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "nut"
     },
     {
         "id": "f21",
         "name": "Egg",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "meat"
     },
     {
         "id": "f22",
         "name": "Raspberry",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f23",
         "name": "Pork",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "meat"
     },
     {
         "id": "f24",
         "name": "Tomato",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f25",
         "name": "Yogurt",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "dairy"
     },
     {
         "id": "f26",
         "name": "Ricotta Cheese",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "dairy"
     },
     {
         "id": "f27",
         "name": "Mascarpone",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "dairy"
     },
     {
         "id": "f28",
         "name": "Prune",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f29",
         "name": "Spinach",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f30",
         "name": "Garlic",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f31",
         "name": "Onion",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f32",
         "name": "Lemon",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f33",
         "name": "Bell Pepper",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f34",
         "name": "Cucumber",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f35",
         "name": "Blueberry",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f36",
         "name": "Peanut Butter",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f37",
         "name": "Carrot",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f38",
         "name": "Wheat Farina",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "grain"
     },
     {
         "id": "f39",
         "name": "Bread",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "grain"
     },
     {
         "id": "f40",
         "name": "Pasta",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "grain"
     },
     {
         "id": "f41",
         "name": "Yellow Squash",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f42",
         "name": "Ezekial Bread",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f43",
         "name": "Goat Cheese",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "dairy"
     },
     {
         "id": "f44",
         "name": "Lamb",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "meat"
     },
     {
         "id": "f45",
         "name": "Peach",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f46",
         "name": "Salmon",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "meat"
     },
     {
         "id": "f47",
         "name": "Cod",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "meat"
     },
     {
         "id": "f48",
         "name": "Talapia",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "meat"
     },
     {
         "id": "f49",
         "name": "Kale",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f50",
         "name": "Sardine",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "meat"
     },
     {
         "id": "f51",
         "name": "Lime",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f52",
         "name": "Sesame",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f53",
         "name": "Lentil",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f54",
         "name": "Buckwheat Noodles",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f55",
         "name": "Ginger",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f56",
         "name": "Acorn Squash",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f57",
         "name": "Chickpea",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f58",
         "name": "Blackberry",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f59",
         "name": "Persimmon",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f60",
         "name": "Orange",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f61",
         "name": "Coconut",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f62",
         "name": "Chia Seeds",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f63",
         "name": "Collard Greens",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f64",
         "name": "Butternut Squash",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f65",
         "name": "Eggplant",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f66",
         "name": "Watermelon",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f67",
         "name": "Pineapple",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f68",
         "name": "Turnip",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f69",
         "name": "Tofu",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "other"
     },
     {
         "id": "f70",
         "name": "Edamame",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f71",
         "name": "Plantain",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f72",
         "name": "Cantaloupe",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f73",
         "name": "Walnut",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f74",
         "name": "Beet",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f75",
         "name": "Mozzarella",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "dairy"
     },
     {
         "id": "f76",
         "name": "Basil",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f77",
         "name": "Grapefruit",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f78",
         "name": "Kidney Beans",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f79",
         "name": "Turkey",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "meat"
     },
     {
         "id": "f80",
         "name": "Kiwi",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f81",
         "name": "Almond",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f82",
         "name": "Pear",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f83",
         "name": "Mushroom",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f84",
         "name": "Green Beans",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f85",
         "name": "Trout",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "meat"
     },
     {
         "id": "f86",
         "name": "Pinto Beans",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f87",
         "name": "Cashew",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f88",
         "name": "Pistachio",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f89",
         "name": "Sunflower Seed",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "nut"
     },
     {
         "id": "f90",
         "name": "Hazelnut",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f91",
         "name": "Couscous",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f92",
         "name": "Rice",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "grain"
     },
     {
         "id": "f93",
         "name": "Spaghetti Squash",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f94",
         "name": "Garden Peas",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f95",
         "name": "Pecan",
-        "isAllergen": true
+        "isAllergen": true,
+        "category": "nut"
     },
     {
         "id": "f96",
         "name": "Parsnip",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f97",
         "name": "Nectarine",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "fruit"
     },
     {
         "id": "f98",
         "name": "Rutabega",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     },
     {
         "id": "f99",
         "name": "Rosemary",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "other"
     },
     {
         "id": "f100",
         "name": "Pumpkin",
-        "isAllergen": false
+        "isAllergen": false,
+        "category": "vegetable"
     }
 ]
