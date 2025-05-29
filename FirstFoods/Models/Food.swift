@@ -18,7 +18,9 @@ struct Food: Identifiable, Codable {
     }
 }
 
-enum FoodCategory: String, Codable {
+enum FoodCategory: String, CaseIterable, Codable, Identifiable {
+    var id: String { self.rawValue }
+    
     case fruit
     case vegetable
     case nut

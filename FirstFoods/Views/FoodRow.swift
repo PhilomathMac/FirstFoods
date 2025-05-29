@@ -17,7 +17,7 @@ struct FoodRow: View {
                 .padding([.trailing])
             VStack(alignment: .leading) {
                 Text(food.name)
-                    .font(.title)
+                    .font(.title2)
                 HStack {
                     TimesTriedSymbol(timesTried: foodStatus?.timesTried ?? 0)
                     Text(foodStatus?.babyPreference ?? "❓")
