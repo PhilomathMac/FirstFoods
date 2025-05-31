@@ -7,7 +7,12 @@
 
 import Foundation
 
-var foods: [Food] = load("foodData.json")
+@Observable
+class ModelData {
+    var foods: [Food] = load("foodData.json")
+    var baby = BabyData(name: "Elowyn", dateStarted: Date())
+}
+
 
 func load<T: Decodable>(_ fileName: String) -> T {
     let data: Data

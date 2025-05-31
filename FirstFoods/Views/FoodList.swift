@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct FoodList: View {
-    @State var selectedCategories: Set<FoodCategory> = [.vegetable]
+    @Environment(ModelData.self) var modelData
+    @State var selectedCategories: Set<FoodCategory> = []
     
     var filteredFoods : [Food] {
-        foods.filter { food in
+        modelData.foods.filter { food in
             selectedCategories.isEmpty || selectedCategories.contains(food.category)
         }
     }
@@ -50,10 +51,10 @@ struct FoodList: View {
             .padding()
             List{
                 ForEach(filteredFoods) { food in
-                    FoodRow(food: food)
+                    FoodRow(food: food, foodStatus: modelData.baby.foodStatuses[food.id])
                         .swipeActions(edge:.trailing) {
                             Button(action: {
-                                // Increment how many times baby has had food
+                                changeFoodCount(for: food, adding: true)
                             }, label: {
                                 Image(systemName: "plus")
                             })
@@ -61,7 +62,7 @@ struct FoodList: View {
                         }
                         .swipeActions(edge:.leading) {
                             Button(action: {
-                                // Decrement how many times baby has had food
+                                changeFoodCount(for: food, adding: false)
                             }, label: {
                                 Image(systemName: "minus")
                             })
@@ -71,8 +72,21 @@ struct FoodList: View {
             }
         }
     }
+    
+    func changeFoodCount(for food: Food, adding: Bool) {
+        var status = modelData.baby.foodStatuses[food.id] ?? FoodStatus()
+        if (adding) {
+            status.timesTried += 1
+        } else {
+            if (status.timesTried > 0) {
+                status.timesTried -= 1
+            }
+        }
+        modelData.baby.foodStatuses[food.id] = status
+    }
 }
 
 #Preview {
     FoodList()
+        .environment(ModelData())
 }

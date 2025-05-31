@@ -12,12 +12,15 @@ let possiblePreferences = ["?", "❤️", "🤢", "🫤"]
 struct FoodStatus {
     var timesTried = 0
     var babyPreference = possiblePreferences[0]
+    
+    init(timesTried: Int = 0, babyPreference: String = possiblePreferences[0]) {
+        self.timesTried = timesTried
+        self.babyPreference = babyPreference
+    }
 }
 
 struct BabyData {
     var name: String
     var dateStarted: Date
-    var foodStatus: [String: FoodStatus] = [:]
+    var foodStatuses: [String: FoodStatus] = [:]
 }
-
-let baby = BabyData(name: "Elowyn", dateStarted: Date())

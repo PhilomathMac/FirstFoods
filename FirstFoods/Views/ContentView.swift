@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var selectedCategories: Set<FoodCategory> = []
-    
     var body: some View {
         FoodList()
     }
 }
 #Preview {
     ContentView()
+        .environment(ModelData())
 }

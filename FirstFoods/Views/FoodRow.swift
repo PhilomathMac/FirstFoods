@@ -33,9 +33,9 @@ struct FoodRow: View {
 }
 
 #Preview {
-    FoodRow(food: foods[36])
+    FoodRow(food: ModelData().foods[36])
 }
 
 #Preview {
-    FoodRow(food: foods[20])
+    FoodRow(food: ModelData().foods[20])
 }
