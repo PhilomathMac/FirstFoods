@@ -18,8 +18,8 @@ struct Food: Identifiable, Codable {
     }
 }
 
-enum FoodCategory: String, CaseIterable, Codable, Identifiable {
-    var id: String { self.rawValue }
+enum FoodCategory: String, CaseIterable, Codable, Identifiable, Hashable {
+    var id: String { rawValue }
     
     case fruit
     case vegetable
@@ -28,4 +28,23 @@ enum FoodCategory: String, CaseIterable, Codable, Identifiable {
     case dairy
     case grain
     case other
+    
+    var emoji: String {
+        switch self {
+        case .fruit:
+            return "🍎"
+        case .vegetable:
+            return "🥕"
+        case .nut:
+            return "🥜"
+        case .meat:
+            return "🍗"
+        case .dairy:
+            return "🥛"
+        case .grain:
+            return "🌾"
+        case .other:
+            return "❓"
+        }
+    }
 }
