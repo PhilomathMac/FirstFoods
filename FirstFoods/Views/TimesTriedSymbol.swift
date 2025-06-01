@@ -22,9 +22,21 @@ struct TimesTriedSymbol: View {
             return "checkmark.seal"
         }
     }
+    var symbolColor: Color {
+        switch timesTried {
+        case 0:
+            return .red
+        case 1:
+            return .orange
+        case 2:
+            return .yellow
+        default:
+            return .green
+        }
+    }
     
     var body: some View {
-        Image(systemName: symbolName)
+        Image(systemName: symbolName).foregroundStyle(symbolColor)
 
     }
 }

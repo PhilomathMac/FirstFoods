@@ -7,7 +7,7 @@
 
 import Foundation
 
-let possiblePreferences = ["?", "❤️", "🤢", "🫤"]
+let possiblePreferences = ["❓", "❤️", "🤢", "🫤"]
 
 struct FoodStatus {
     var timesTried = 0
