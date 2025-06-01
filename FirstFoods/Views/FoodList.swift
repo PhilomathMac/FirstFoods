@@ -9,13 +9,13 @@ import SwiftUI
 
 struct FoodList: View {
     @Environment(ModelData.self) var modelData
-    @State var selectedCategory: FoodCategory?
+    @State var selectedCategory: FoodCategory = .all
     @State var searchText = ""
 
     var filteredFoods: [Food] {
         modelData.foods.filter { food in
-            if selectedCategory == nil && searchText.isEmpty { return true }
-            if selectedCategory == nil {
+            if selectedCategory == .all && searchText.isEmpty { return true }
+            if selectedCategory == .all {
                 return searchText.isEmpty
                     || food.name.lowercased().contains(searchText.lowercased())
             } else {
@@ -65,7 +65,7 @@ struct FoodList: View {
             .navigationTitle("Baby's First Foods")
         }
         .searchable(text: $searchText)
-        .searchScopes($selectedCategory) {
+        .searchScopes($selectedCategory, activation: .onSearchPresentation) {
             ForEach(FoodCategory.allCases, id: \.self) { category in
                 Text(category.emoji).tag(category)
             }
