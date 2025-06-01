@@ -26,6 +26,12 @@ struct FoodList: View {
 
     var body: some View {
         NavigationStack {
+            if (filteredFoods.isEmpty) {
+                VStack(alignment: .center) {
+                    Text("No matching foods found")
+                }
+                .padding(.top)
+            }
             List {
                 ForEach(filteredFoods) { food in
                     FoodRow(
