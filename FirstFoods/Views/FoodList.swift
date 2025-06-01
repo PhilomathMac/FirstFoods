@@ -57,31 +57,6 @@ struct FoodList: View {
                 }
             }
             .navigationTitle("Baby's First Foods")
-            //            .toolbar {
-            //                Menu {
-            //                    ForEach(FoodCategory.allCases) { category in
-            //                        Button {
-            //                            if selectedCategories.contains(category) {
-            //                                selectedCategories.remove(category)
-            //                            } else {
-            //                                selectedCategories.insert(category)
-            //                            }
-            //                        } label: {
-            //                            HStack {
-            //                                Text(category.rawValue)
-            //                                if selectedCategories.contains(category) {
-            //                                    Image(systemName: "checkmark")
-            //                                }
-            //                            }
-            //                        }
-            //
-            //                    }
-            //                } label: {
-            //                    Image(systemName: "line.3.horizontal.decrease.circle")
-            //                        .font(.title)
-            //                }
-            //                .menuActionDismissBehavior(.disabled)
-            //            }
         }
         .searchable(text: $searchText)
         .searchScopes($selectedCategory) {
