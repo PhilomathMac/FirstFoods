@@ -42,17 +42,10 @@ struct TimesTriedSymbol: View {
 }
 
 #Preview {
-    TimesTriedSymbol(timesTried: 0)
-}
-
-#Preview {
-    TimesTriedSymbol(timesTried: 1)
-}
-
-#Preview {
-    TimesTriedSymbol(timesTried: 2)
-}
-
-#Preview {
-    TimesTriedSymbol(timesTried: 3)
+    HStack {
+        TimesTriedSymbol(timesTried: 0)
+        TimesTriedSymbol(timesTried: 1)
+        TimesTriedSymbol(timesTried: 2)
+        TimesTriedSymbol(timesTried: 3)
+    }
 }
