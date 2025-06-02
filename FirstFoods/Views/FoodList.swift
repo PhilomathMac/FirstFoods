@@ -38,21 +38,10 @@ struct FoodList: View {
                         food: food,
                         foodStatus: modelData.baby.foodStatuses[food.id]
                     )
-                    .swipeActions(edge: .trailing) {
-                        Button(
-                            action: {
-                                changeFoodCount(for: food, adding: true)
-                            },
-                            label: {
-                                Image(systemName: "plus")
-                            }
-                        )
-                        .tint(.green)
-                    }
                     .swipeActions(edge: .leading) {
                         Button(
                             action: {
-                                changeFoodCount(for: food, adding: false)
+                                decrementFoodCount(for: food)
                             },
                             label: {
                                 Image(systemName: "minus")
@@ -72,14 +61,13 @@ struct FoodList: View {
         }
     }
 
-    func changeFoodCount(for food: Food, adding: Bool) {
+    func decrementFoodCount(for food: Food) {
         var status = modelData.baby.foodStatuses[food.id] ?? FoodStatus()
-        if adding {
-            status.timesTried += 1
-        } else {
             if status.timesTried > 0 {
                 status.timesTried -= 1
             }
+        if status.timesTried <= 0 {
+            status.babyPreference = FoodPreference.unknown
         }
         modelData.baby.foodStatuses[food.id] = status
     }

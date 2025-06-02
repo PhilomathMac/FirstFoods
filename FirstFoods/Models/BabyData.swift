@@ -7,13 +7,11 @@
 
 import Foundation
 
-let possiblePreferences = ["❓", "❤️", "🤢", "🫤"]
-
 struct FoodStatus {
-    var timesTried = 0
-    var babyPreference = possiblePreferences[0]
+    var timesTried: Int
+    var babyPreference: FoodPreference
     
-    init(timesTried: Int = 0, babyPreference: String = possiblePreferences[0]) {
+    init(timesTried: Int = 0, babyPreference: FoodPreference = FoodPreference.unknown) {
         self.timesTried = timesTried
         self.babyPreference = babyPreference
     }
@@ -23,4 +21,13 @@ struct BabyData {
     var name: String
     var dateStarted: Date
     var foodStatuses: [String: FoodStatus] = [:]
+}
+
+enum FoodPreference: String, CaseIterable, Codable, Identifiable, Hashable {
+    var id: String { rawValue }
+    
+    case unknown = "❓"
+    case loved = "❤️"
+    case hated = "🤢"
+    case neutral = "🫤"
 }
